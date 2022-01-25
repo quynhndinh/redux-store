@@ -1,3 +1,5 @@
+
+
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -91,9 +93,5 @@ export const reducers = (state = initialState, action) => {
       return state;
   }
 };
-
-export function useProductReducer(initialState) {
-  return useReducer(reducer, initialState);
-}
 
 export default reducers;
